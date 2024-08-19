@@ -25,6 +25,11 @@ module.exports = {
           600: "#4285F4",
         },
       },
+      fontFamily: {
+        heading: "Roboto_700Bold",
+        subtitle: "Roboto_500Medium",
+        body: "Roboto_400Regular",
+      },
     },
   },
   plugins: [],
