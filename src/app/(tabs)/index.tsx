@@ -23,7 +23,8 @@ export default function Home() {
         data={EMAILS}
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => <Email data={item} />}
-        contentContainerStyle={{ gap: 12 }}
+        contentContainerStyle={{ gap: 12, paddingBottom: 20 }}
+        showsVerticalScrollIndicator={false}
         ListHeaderComponent={() => (
           <Text className="uppercase text-gray-400 text-sm font-subtitle mt-6">
             Entrada
